@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabana HTML5</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .collapse.show {
+            display: block;
+        }
+        .card card-body{
+                width: 900px;
+            }
+    </style>
+</head>
+<body class="text-center">
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <h1 style="color:white" class="text-center">Sabana HTML5</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <h3>Menu de opciones</h3>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse1" aria-expanded="false">
+                                1. Antecedentes
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse2" aria-expanded="false">
+                                2. Etiqueta (Síntaxis Básica)
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse3" aria-expanded="false">
+                                3. Etiqueta de texto
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse4" aria-expanded="false">
+                                4. Etiqueta de listas
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse5" aria-expanded="false">
+                                5. Tablas
+                            </button>
+                        </li><br>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse6" aria-expanded="false">
+                                6. Imagen
+                            </button>
+                        </li><br>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse7" aria-expanded="false">
+                                7. Video
+                            </button>
+                        </li><br>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse8" aria-expanded="false">
+                                8. Audio
+                            </button>
+                        </li><br>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse9" aria-expanded="false">
+                                9. Hipervinculos
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse10" aria-expanded="false">
+                                10. Formularios
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse11" aria-expanded="false">
+                                11. Semanticos
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse12" aria-expanded="false">
+                            12. Frames
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse13" aria-expanded="false">
+                                13. Estructura basica de una pagina web
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse14" aria-expanded="false">
+                                14. Meta
+                            </button>
+                        </li><br>
+
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-target="#collapse15" aria-expanded="false">
+                                15. Extras/otros
+                            </button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+        <div class="collapse" id="collapse1">
+            <div class="card card-body">
+<p> El origen de HTML se remonta a 1980 cuando Tim Berners-Lee, un investigador del CERN, propuso un sistema de hipertexto para compartir documentos. Este sistema fue evolucionando y, junto con Robert Cailliau, desarrollaron el proyecto WorldWideWeb (W3), el cual introdujo el concepto de páginas web. En 1991, se publicó el primer documento formal sobre HTML, titulado "HTML Tags".
+    En 1993, el IETF hizo la primera propuesta oficial para estandarizar HTML, y en 1995 publicó HTML 2.0, el primer estándar oficial. Desde 1996, el W3C asumió la responsabilidad de estandarizar HTML, publicando versiones como HTML 3.2 en 1997, HTML 4.0 en 1998, y HTML 4.01 en 1999.
+    A partir del 2000, la atención del W3C se desplazó hacia XHTML, una versión basada en XML, mientras que HTML quedó en segundo plano. Sin embargo, en 2004, Apple, Mozilla y Opera crearon WHATWG, que impulsó la evolución de HTML hacia HTML5, cuya primera versión se publicó en 2008. En 2014, HTML5 se convirtió en un estándar oficial del W3C, promoviendo la creación de una Plataforma Web Abierta junto con tecnologías como JavaScript y CSS3. Esta nueva versión se centra en mejorar la seguridad, el diseño, la interactividad, la accesibilidad, y la usabilidad de las aplicaciones web modernas.</p>
+    <center><img src="descarga (1).png" alt="Logo html" width="200px" height="200px"></center>
+            </div>
+        </div>
+        <div class="collapse" id="collapse2">
+            <div class="card card-body">
+                <p>Su sintaxis en un elemento base al que llamamos marca, tag o simplemente etiqueta. A través de las etiquetas vamos definiendo los elementos del documento, como enlaces, párrafos, imágenes, etc.
+                    Así pues, un documento HTML estará constituido por texto y un conjunto de etiquetas para definir la función que juega cada contenido dentro de la página. Todo eso servirá al navegador para saber cómo se tendrá que presentar el texto y otros elementos en la página. Una etiqueta se define por que tiene una apertura: "&lt;" y un cierre: "/&gt;"
+                </p>
+                &lt;img&gt; Este es un texto de ejemplo de etiqueta
+
+             
+            </div>
+        </div>
+        <div class="collapse" id="collapse3">
+            <div class="card card-body">
+                <p>Las etiquetas de texto son aquellas que permiten introducir texto y modificar su formato de texto en html, es decir son las mas importantes porque dan la mayor parte del contenido de una pagina web. Ejemplos de estas etiquetas:</p>
+                <p> &lt;p&gt Para parrafos</p> <p>&lt;h1&gt; a &lt;h6&gt; son etiquetas de titulos y subtitulos</p> <p>&lt;span&gt; Podemos personalizar el estilo de solamente una parte del texto</p> <p>&lt;strong&gt; Se utiliza para destacar una parte del texto</p> <p>&lt;em&gt; Se utiliza para emfatizar en un texto</p>
+                <p>&lt;samp&gt; Se utiliza para algun ejemplo</p> <p>&lt;cite&gt; Se una para una cita</p>
+            </div>
+        </div>
+        <div class="collapse" id="collapse4">
+            <div class="card card-body">
+                <p>En HTML, podemos enumerar elementos en forma ordenada o desordenada. Una lista ordenada utiliza números o algún tipo de notación que indica una serie de elementos. Un ejemplo de su uso es: <br>
+                  <code> &lt;ol&gt <br>
+                        &lt;li&gtComer&lt;/li&gt <br>
+                        &lt;li&gtCodigo&lt;/li&gt <br>
+                        &lt;li&gtDormir&lt;/li&gt <br>
+                        &lt;/ol&gt</code> <br>
+                        El resultado seria: <br>
+                        <ol>
+                            <li>Comer</li>
+                            <li>Codigo</li>
+                            <li>Dormir</li>
+                          </ol> A esto tambien se le puede cambiar la numeracion de la lista utilizando el atributo "type" y se puden poner: A-a-I-i-1
+                </p><p>Las listas desordenadas se basan en 2 tipos de etiquetas, la etiqueta &lt;ul&gt para crearla y para el contenido de la lista la etiqueta &lt;li&gt, aqui un ejemplo de correcto uso:   <br>
+                    <code>&lt;ul&gt <br>
+                        &lt;li&gtHTML&lt;/li&gt <br>
+                        &lt;li&gtCSS&lt;/li&gt <br>
+                        &lt;li&gtJS&lt;/li&gt <br>
+                        &lt;/ul&gt</code> <br> El reultado seria:   
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                          </ul> A todo lo antes mensionado se pueden poner distintos atributos, como poner encabezados con una etiqueta llamada nav, poner estilos a las litas e incluso poner la lista como hipervinculos. 
+                    </p>
+                    <p>Por ultimo se pueden crear listas con una breve descripción, esto se crea utlizando las siguientes etiquetas &lt;dl&gt para crear la lista, &lt;dt&gt para poner lo que vamos a describir y por ultimo &lt;dd&gt para escribir la descripcion este tipo de lista la podemos crear de la siguiente manera: <br>
+                    <code>
+                        &lt;dl&gt <br> 
+                        &lt;dt&gtCodigo&lt;/dt&gt <br>
+                        &lt;dd&gtUna actividad que me pone feliz, y luego me duermo&lt;/dd&gt <br>
+                            &lt;dt&gtCaminar&lt;/dt&gt <br>
+                            &lt;dd&gtMe sirve para distraerme&lt;/dd&gt <br>
+                            &lt;dt&gtDormir&lt;/dt&gt <br>
+                            &lt;dd&gtEs la actividad que mas disfruto hacer&lt;/dd&gt <br>
+                            &lt;/dl&gt <br> 
+                    </code> El resultado seria: <br>
+                    <dl>
+                        <dt>codigo</dt>
+                        <dd>Una actividad que me pone feliz, y luego me duermo</dd>
+                        <dt>Caminar</dt>
+                        <dd>Me sirve para distraerme</dd>
+                        <dt>Dormir</dt>
+                        <dd>Es la actividad que mas disfruto hacer</dd>
+                      </dl></p>
+            </div>
+        </div>
+        <div class="collapse" id="collapse5">
+            <div class="card card-body">
+                <p>Las tablas HTML son elementos dentro del diseño web que permiten a los desarrolladores web organizar datos como texto, imágenes y enlaces en filas y columnas. Las tablas se crean de la siguiente manera: &lt;table&gt&lt;/table&gt Es para crear la tabla y de ahi se utilizan 2 etiquetas muy importantes las cuales son &lt;tr&gt&lt;/tr&gt para crear las filas de la tabla y los &lt;td&gt&lt;/td&gt para las celdas de datos, estas 3 son las mas comunes y utilizadas pero existen otras para encabezados, subtitulos y mas cosas :)</p> <p>Ejemplo de la creacion de una tabla: <br> <code>
+                    &lt;table&gt <br>
+                    &lt;tr&gt <br>
+                    &lt;td&gtHola, soy tu primera celda.&lt;/td&gt <br>
+                    &lt;td&gtSoy tu segunda celda.&lt;/td&gt <br>
+                    &lt;/tr&gt <br>
+                    &lt;/table&gt <br> 
+                </code> Y se puede seguir consecutivamente creando mas filas y con informacion diferente, el resultado es: <br>
+                <center>
+                <table style="border-collapse: collapse; width: 50%;">
+                    <tr style="border: 1px solid black; padding: 8px; text-align: center;">
+                        <td>Hola, soy tu primera celda.</td>
+                        <td>Soy tu segunda celda.</td>
+                        <td>Soy tu tercer celda.</td>
+                        <td>Soy tu cuarta celda.</td>
+                      </tr>
+                      <tr style="border: 1px solid black; padding: 8px; text-align: center;">
+                        <td>Hola Mundo</td>
+                      </tr>
+                </table></center> <br> De igual manera se le puede aplicar distintos estilos a la tabla con CSS o con algun framework de CSS que tienen distintas propuestas de diseño</p>
+            </div>
+        </div>
+        <div class="collapse" id="collapse6">
+            <div class="card card-body">
+               <p>Para insertar una imagen en una página HTML se utiliza la etiqueta &lt;img&gt. Es una etiqueta vacía que no contiene texto y que no necesita una etiqueta de cierre. Su atributo principal y el mínimo indispensable es el atributo src (por la palabra en inglés source) que, por medio de una URL, especifica el origen o la fuente de donde se obtendrá la imagen para ser mostrada en la página. 
+                Existen 2 formas de poner imagenes con HTML las cuales son tomando la URL de la imagen estando en la computadora o tomando la URL desde internet e insertarla a la pagina web.</p>
+                <p>Ejemplo de la etiqueta &lt;img&gt: <br> <code>
+                    &lt;img hrf="Ruta de la imagen" alt="Es un mensaje que sale cuando la imagen no carga" width="Ancho de la imagen" height="Alto de la imagen"&gt <br>
+                </code> Esta etiqueta tiene 4 atributos extras que son el width y heightveamos un ejemplo de uso:</p> 
+                <p><img src="testting.jpg" alt="Imagen de prueba" width="200px" height="200px"> <br> Esta imagen solo tienen
+                las propiedades de width y height a 200px</p>
+            </div>
+        </div>
+        <div class="collapse" id="collapse7">
+            <div class="card card-body">
+                <p>Para insertar un video en una página HTML se utiliza la etiqueta &lt;video&gt&lt;/video&gt. En este caso es diferente a la de imagen porque esta si tiene un cierre de etiqueta
+               eso quiere decir que entonces se pueden escribir fuentes del video, pero trabajan muy similares veamos sus atributos:</p>
+                <p><code>&lt;video src="Url del video" controls width="Ancho del video" height="Alto del video"  autoplay loop muted&gt&lt;/video&gt</code><br>
+                <br>El atributo "controls" sirve para que puedan salir los controles del video, "autoplay" sirve para que el video se reproduzca automaticamente, "loop" sirve para que se reproduzca en bucle y "muted" para que este muteado el video
+            veamos un ejemplo de como seria ejecutado:</p> <p><video src="Patricio en un caballo.mp4" controls width="400px" height="400px" autoplay loop muted></video> <br> En este video tiene todos los atributos antes mencionados</p>
+            </div>
+        </div>
+        <div class="collapse" id="collapse8">
+            <div class="card card-body">
+                <p>La etiqueta &lt;audio&gt en HTML es utilizada para reproducir audio en una página web. Es un elemento de bloque que permite mostrar un reproductor de audio en el navegador, permitiendo al usuario reproducir, detener, avanzar y retroceder el audio.
+                    veamos un ejemplo de su uso: 
+                </p><p><code>&lt;audio src="Url del audio que quieras poner" controls autoplay loop &gt&lt;/audio&gt</code><br> Igual que con la etiqueta de video "controls"
+                es para que aparezcan los controles del audio, "autoplay" para que se reproduzca automaticamente y "loop" es para que se reproduzca en bucle</p>
+                <p><audio src="Morat con Faltas Tú, su nueva canción  Latin American Music Awards 2024 (1).mp3" controls loop muted></audio> <br>
+                En este audio tiene los atributos que el excepcion del "autoplay, para que no afecte a la paginaweb en todo momento :)"</p>
+            </div>
+        </div>
+        <div class="collapse" id="collapse9">
+            <div class="card card-body">
+                Contenido para Etiqueta (Síntaxis Básica).
+            </div>
+        </div>
+        <div class="collapse" id="collapse10">
+            <div class="card card-body">
+                Contenido para Etiqueta (Síntaxis Básica).
+            </div>
+        </div>
+        <div class="collapse" id="collapse11">
+            <div class="card card-body">
+                Contenido para Etiqueta (Síntaxis Básica).
+            </div>
+        </div>
+        <div class="collapse" id="collapse12">
+            <div class="card card-body">
+                Contenido para Etiqueta (Síntaxis Básica).
+            </div>
+        </div>
+        <div class="collapse" id="collapse13">
+            <div class="card card-body">
+                Contenido para Etiqueta (Síntaxis Básica).
+            </div>
+        </div>
+        <div class="collapse" id="collapse14">
+            <div class="card card-body">
+                Contenido para Etiqueta (Síntaxis Básica).
+            </div>
+        </div>
+        <div class="collapse" id="collapse15">
+            <div class="card card-body">
+                Contenido para Extras/otros.
+            </div>
+        </div>
+    </div>
+
+   <script src="bootstrap.bundle.min.js"></script>
+   <script src="app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var buttons = document.querySelectorAll('.nav-item button');
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var targetId = button.getAttribute('data-bs-target');
+                    var targetCollapse = document.querySelector(targetId);
+
+                    // Ocultar todas las secciones
+                    document.querySelectorAll('.collapse').forEach(function(collapse) {
+                        if (collapse !== targetCollapse) {
+                            var bsCollapse = bootstrap.Collapse.getInstance(collapse);
+                            if (bsCollapse) bsCollapse.hide();
+                        }
+                    });
+
+                    // Mostrar la sección seleccionada
+                    var bsCollapse = new bootstrap.Collapse(targetCollapse, {
+                        toggle: true
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
